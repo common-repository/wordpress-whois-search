@@ -1,0 +1,461 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress WHOIS Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-01 15:05+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tribulant Software <support@tribulant.com>\n"
+"Language-Team: Tribulant Software <support@tribulant.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: SOUTH AFRICA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-whois.php:110
+msgid "Selected TLDs and their order have been saved"
+msgstr ""
+
+#: ../wp-whois.php:112
+msgid "TLDs list seems to be empty. Please debug."
+msgstr ""
+
+#: ../wp-whois.php:123
+#: ../wp-whois.php:158
+#: ../wp-whois.php:239
+#: ../views/admin/index.php:12
+msgid "WHOIS"
+msgstr ""
+
+#: ../wp-whois.php:135
+msgid "Configuration Settings"
+msgstr ""
+
+#: ../wp-whois.php:136
+msgid "Support &amp; Credits"
+msgstr ""
+
+#: ../wp-whois.php:137
+msgid "General Settings"
+msgstr ""
+
+#: ../wp-whois.php:138
+msgid "TLD Settings"
+msgstr ""
+
+#: ../wp-whois.php:139
+msgid "CSS Configuration"
+msgstr ""
+
+#: ../wp-whois.php:156
+msgid "Insert a domain whois search form into your sidebar(s)"
+msgstr ""
+
+#: ../wp-whois.php:272
+#: ../wp-whois.php:530
+msgid "You are running the free, ad links version. Please "
+msgstr ""
+
+#: ../wp-whois.php:272
+#: ../wp-whois.php:530
+msgid "WordPress WHOIS Plugin"
+msgstr ""
+
+#: ../wp-whois.php:272
+#: ../wp-whois.php:530
+msgid "purchase the WHOIS plugin"
+msgstr ""
+
+#: ../wp-whois.php:272
+#: ../wp-whois.php:530
+msgid " to remove all the ad links."
+msgstr ""
+
+#: ../wp-whois.php:439
+msgid "TLDs have been updated accordingly."
+msgstr ""
+
+#: ../wp-whois.php:446
+msgid "Configuration settings have been reset to their defaults"
+msgstr ""
+
+#: ../wp-whois.php:449
+msgid "Configuration settings could not be reset"
+msgstr ""
+
+#: ../wp-whois.php:511
+msgid "Stylesheet \"/vendors/samswhois/"
+msgstr ""
+
+#: ../wp-whois.php:523
+msgid "Configuration settings have been saved"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:36
+msgid "Error"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:36
+msgid "{domain} is Available."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:36
+msgid "{domain} is Registered."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:37
+msgid "whois lookup at {server}..."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:201
+msgid "This domain is registered, you can"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:202
+msgid "view the WHOIS information"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.class.php:319
+msgid ""
+"\n"
+"Error - could not open a connection to "
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:56
+msgid "For security reasons, please provide the answer to the given mathematical calculation"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:62
+msgid "Check Domain"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:66
+msgid "Enter a domain name and select a tld from the box above"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:68
+msgid "Enter a domain name including extension in the box above"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:73
+msgid "For security reasons, you MUST enter the 4 digit code shown above."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:77
+msgid "Sorry, an error occurred."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:81
+msgid "For security purposes, please also enter the 4 digit code."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:85
+msgid "Sorry, that tld is not supported."
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:89
+msgid "Whois Lookup"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:210
+msgid "The sum you filled in is incorrect"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:215
+msgid "Please fill in a sum for the mathematical calculation"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:308
+msgid "+"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:308
+msgid "="
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:324
+msgid "Clean whois output?"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:331
+msgid "Highlight Important Fields?"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:341
+msgid "Supported Tlds: "
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:357
+#: ../vendors/samswhois/samswhois.inc.php:502
+msgid "WHOIS powered by "
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:424
+msgid "The Domain Status Is"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:428
+#: ../vendors/samswhois/samswhois.inc.php:432
+msgid "ERROR"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:435
+msgid "AVAILABLE"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:438
+msgid "REGISTERED"
+msgstr ""
+
+#: ../vendors/samswhois/samswhois.inc.php:454
+msgid "Domain WHOIS"
+msgstr ""
+
+#: ../views/admin/widget.php:3
+msgid "Title"
+msgstr ""
+
+#: ../views/admin/widget.php:9
+msgid "Show Link when FREE"
+msgstr ""
+
+#: ../views/admin/widget.php:10
+#: ../views/admin/metaboxes/settings-css.php:6
+#: ../views/admin/metaboxes/settings-general.php:64
+#: ../views/admin/metaboxes/settings-general.php:72
+#: ../views/admin/metaboxes/settings-general.php:86
+msgid "Yes"
+msgstr ""
+
+#: ../views/admin/widget.php:11
+#: ../views/admin/metaboxes/settings-css.php:7
+#: ../views/admin/metaboxes/settings-general.php:65
+#: ../views/admin/metaboxes/settings-general.php:73
+#: ../views/admin/metaboxes/settings-general.php:87
+msgid "No"
+msgstr ""
+
+#: ../views/admin/widget.php:12
+msgid "Link will be shown when domain is available"
+msgstr ""
+
+#: ../views/admin/widget.php:19
+msgid "Referral Link Title"
+msgstr ""
+
+#: ../views/admin/widget.php:21
+msgid "anchor text for the referral link"
+msgstr ""
+
+#: ../views/admin/widget.php:27
+msgid "Referral Link URL"
+msgstr ""
+
+#: ../views/admin/widget.php:29
+msgid "URL of referral link to show"
+msgstr ""
+
+#: ../views/admin/widget.php:35
+msgid "Link Target"
+msgstr ""
+
+#: ../views/admin/widget.php:36
+#: ../views/admin/metaboxes/settings-general.php:110
+msgid "Same Window"
+msgstr ""
+
+#: ../views/admin/widget.php:37
+#: ../views/admin/metaboxes/settings-general.php:111
+msgid "New Window"
+msgstr ""
+
+#: ../views/admin/widget.php:38
+msgid "let the link open in the same or a new window"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-credits.php:2
+msgid "Antonie Potgieter from Tribulant Software"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-css.php:4
+msgid "Custom CSS"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-css.php:8
+msgid "use custom CSS for the front-end"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-css.php:24
+msgid "Stylesheet wp-whois/vendors/samswhois/"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:4
+msgid "Search Form Method"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:6
+msgid "Regular POST"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:7
+msgid "Ajax Request"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:11
+msgid "Security Check"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:13
+msgid "Captcha Image"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:13
+msgid "turing number image. requires <a href=\"http://wordpress.org/extend/plugins/really-simple-captcha/\" target=\"_blank\">Really Simple Captcha</a> plugin."
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:14
+msgid "Human Check"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:14
+msgid "mathematical calculation"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:15
+msgid "OFF"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:16
+msgid "displays an image or calculation for accurate human input recognition"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:36
+msgid "Background Color"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:39
+msgid "hexadecimal background color of the captcha image eg. #FFFFFF"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:49
+msgid "WHOIS Output"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:51
+msgid "Full Information"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:52
+msgid "Short: Available/Not Available Only"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:62
+msgid "Highlight Fields"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:66
+msgid "highlight important fields in the whois output (eg. status, nameservers, etc)"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:70
+msgid "Clean Output"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:74
+msgid "\"clean\" the whois output of extraneous text"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:84
+msgid "Redirect When \"Available\""
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:88
+msgid "when a domain searched for is available, the plugin can do a redirect"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:98
+msgid "Redirect URL"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:102
+msgid "URL to redirect to when a domain is available (not registered)"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:103
+msgid "you may use <code>{domain}</code> and <code>{tld}</code> in the URL where you want it to be replaced"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:108
+msgid "Redirect Target"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:112
+msgid "open \"Redirect URL\" above in the same or a new window"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:123
+msgid "Turn on Cache"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:125
+#: ../views/admin/metaboxes/settings-general.php:142
+msgid "On"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:126
+#: ../views/admin/metaboxes/settings-general.php:143
+msgid "Off"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:133
+msgid "Cache directory is NOT writable. Please CHMOD wp-whois/vendors/samswhois/cache to 0777."
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:140
+msgid "TinyMCE Button"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-general.php:144
+msgid "turn this On for a TinyMCE button to quickly insert WHOIS form"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Restore all configuration settings to their defaults"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Are you sure you wish to reset all configuration settings to their defaults?"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:5
+msgid "Reset Configuration Settings"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:8
+msgid "Reload any changes to TLDs in the config file"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:8
+msgid "Reload all TLDs from config file"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-submit.php:14
+msgid "Save Configuration"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-tlds.php:5
+msgid "Check All"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-tlds.php:6
+msgid "Inverse Selection"
+msgstr ""
+
+#: ../views/admin/metaboxes/settings-tlds.php:52
+msgid "No domain TLDs were found. Please check your configuration file"
+msgstr ""
+

@@ -1,0 +1,118 @@
+/*
+	Sams Whois Configuration File.
+
+	This file contains details on whois servers and which tlds use them.
+	You can edit this file to add or remove whois servers and tlds from the
+	script.
+
+	1) The servers list
+
+	Each whois server appears on a single line, with configuration info separated by a |
+	The fields are: whois server, available match, match for authoratitive server, text to clean, fields to hilight.
+
+	The whois server field can also contain extra text to submit to the server before the domain.
+	For example, specifiying "domain " before the domain name for whois.crsnic.net ensures that the result
+	for that specific domain is returned. Separate this value from the server name with a #
+
+	The available match just contains some text to search for that determines that the domain is available.
+
+	The auth. server match is used for tlds like com & net to indicate the position in the whois result where
+	the name of the authoratitive server to use is.
+
+	The cleanup text is a string to match with the whois data for cleaning the result. It should be preceeded by
+	either a > or a <. If a > is used, then this string and all text after it will be removed. If a < is used,
+	then this string and all text before it will be removed from the result (if cleaning is turned on).
+
+	The fields to hilight section contains a list of strings which match the beginning of lines in the whois
+	output to hilight. Separate each of these with a #.
+
+	2) The tlds list
+
+	The tlds list matches each tld to the whois server to use to look it up, in the form tld=server
+
+	3) The default hilight list.
+
+	The line after this comment, defaulthilight=... contains a list of strings to use for the hilighting for any
+	server which doesn't have hilighting set already.
+*/
+defaulthilight=Registrant Contact:#Technical Contact:#Billing Contact:#Administrative Contact:#Status:#Name Server:#Expiration date:#Tech Contact:#Admin Contact:#Registrant:#Registrant Contact Name:#Registrant Contact Email:#Admin Contact Name:#Admin Contact Email:#Domain Server#Created#Expires
+[servers]
+whois.crsnic.net#domain |No match for |Whois Server:|>NOTICE: The expiration date|Registrar:#Status:#Expiration Date:
+whois.afilias.net|NOT FOUND||<you agree to abide by this policy.|Expiration Date:#Status:#Registrant Email:#Admin Name:#Billing Name:#Billing Email#Tech Name:#Tech Email:#Registrant Name:#Admin Email:#Name Server:
+whois.nic.us|Not found:||>NeuStar, Inc., the Registry Administrator|Domain Expiration Date:#Domain Status:#Sponsoring Registrar:#Registrant Name:#Registrant Email:#Administrative Contact Name:#Administrative Contact Email:#Billing Contact Name:#Billing Contact Email:#Technical Contact Name:#Technical Contact Email:#Name Server:
+whois.internic.net|No match for |Whois Server:
+whois.publicinterestregistry.net|NOT FOUND||<you agree to abide by this policy.|Expiration Date:#Status:#Name Server:#Registrant Name:#Registrant Email:#Admin Name:#Admin Email:#Tech Name:#Tech Email:#Billing Name:#Billing Email:
+whois.neulevel.biz|Not found:||>NeuLevel, Inc., the Registry|Domain Expiration Date:#Domain Status:#Sponsoring Registrar:#Registrant Name:#Registrant Email:#Administrative Contact Name:#Administrative Contact Email:#Billing Contact Name:#Billing Contact Email:#Technical Contact Name:#Technical Contact Email:#Name Server:
+whois.nic.uk|No match for|||Registration Status:#Registrant:#Registrant's Address:#Renewal Date:#Name servers
+rs.domainbank.net|||<of the foregoing policies.|Administrative Contact:#Record expires on #Technical Contact:#Registrant:#Zone Contact:#Domain servers in 
+whois.moniker.com|||<you agree to abide by this policy.|Administrative Contact:#Registrant:#Domain Servers#Billing Contact:#Technical Contact:#Domain Expires on
+whois.networksolutions.com|||<right to modify these terms at any time.|Registrant:#Administrative Contact:#Record expires on #Domain servers in listed order:
+whois.enom.com|||>The data in this whois database |Registrant Contact:#Technical Contact:#Billing Contact:#Administrative Contact:#Status:#Name Servers:#Expiration date:
+whois.opensrs.net|||>The Data in the Tucows Registrar|Registrant:#Administrative Contact:#Technical Contact:#Record expires on#Domain servers in listed order:
+whois.godaddy.com|||<domain names listed in this database.|Registrant:#Expires On:#Administrative Contact:#Technical Contact:#Domain servers in listed order:
+whois.aunic.net|No Data Found|||Status:#Registrant Contact Name:#Registrant Email:#Name Server:#Tech Name:#Tech Email:
+whois.denic.de|free
+whois.worldsite.ws|No match for|||Registrant:#Name Servers:
+whois.nic.tv|
+whois.nic.tm|No match for
+whois.cira.ca|AVAIL
+whois.nic.cc|No match|Whois Server:|>The Data in eNIC Corporation|Whois Server:#Updated:
+whois.domainzoo.com|||<you agree to abide by these terms.
+whois.domaindiscover.com|||<you agree to abide by this policy.
+whois.markmonitor.com|||<you agree to abide by this policy.
+whois2.afilias-grs.net|NOT FOUND||<abide by this policy.
+whois.domain-registry.nl|free
+whois.geektools.com|FREE||<protect the privacy of its registrants or the integrity of the database
+whois.eu|FREE||<of the database
+whois.nic.cl|no existe
+whois.nic-se.se|not found
+whois.isoc.org.il|No data was found|||registrar name:#person:#e-mail:#domain#Registrar Info:
+whois.dotmobiregistry.net|NOT FOUND||<integrity of the database.|
+whois.nic.asia|NOT FOUND||<integrity of the database.|
+whois.nic.tel|Not found||>Telnic, Ltd., the Registry Operator for .TEL, has collected|
+whois.nic.me|NOT FOUND||<policy.|
+tvwhois.verisign-grs.com|No match||>NOTICE: The expiration date displayed in this record|
+whois.mx|Object_Not_Found||>La informacion que ha solicitado se provee exclusivamente|
+whois.co.za|
+whois.frd.ac.za|
+whois.coza.net.za|Available|||
+whois.nic.fr|No entries found||<RL IP|domain:#status:#nserver:
+whois.domainregistry.ie|Not Registered||<Do not remove this notice|domain:#status:#nserver:#person:
+whois.nic.it|AVAILABLE||<whois.cgi |Domain:#Status:#Name:#Created:#Nameservers
+[/servers]
+[tlds]
+com=whois.crsnic.net
+cl=whois.nic.cl
+se=whois.nic-se.se
+net=whois.crsnic.net
+org=whois.publicinterestregistry.net
+info=whois.afilias.net
+biz=whois.neulevel.biz
+us=whois.nic.us
+co.uk=whois.nic.uk
+org.uk=whois.nic.uk
+ltd.uk=whois.nic.uk
+ca=whois.cira.ca
+cc=whois.nic.cc
+edu=whois.crsnic.net
+com.au=whois.aunic.net
+net.au=whois.aunic.net
+de=whois.denic.de
+ws=whois.worldsite.ws
+sc=whois2.afilias-grs.net
+nl=whois.domain-registry.nl
+be=whois.geektools.com
+eu=whois.eu
+co.il=whois.isoc.org.il
+org.il=whois.isoc.org.il
+mobi=whois.dotmobiregistry.net
+asia=whois.nic.asia
+tel=whois.nic.tel
+me=whois.nic.me
+tv=tvwhois.verisign-grs.com
+mx=whois.mx
+co.za=whois.coza.net.za
+fr=whois.nic.fr
+ie=whois.domainregistry.ie
+it=whois.nic.it
+[/tlds]

@@ -1,0 +1,146 @@
+#error-page {
+	margin-bottom: 50px;
+	font-size: 12px;
+}
+
+#error-page p, p, div, span, label, table.wpwhois {
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
+	font-size: 12px;
+}
+
+label {
+	cursor: pointer !important;
+}
+
+.wpwhoiserror {
+	margin: 0 0 0 0;
+	color: red;
+	font-size: 11px;	
+}
+
+input.button {
+	font-size: 13px;
+}
+
+fieldset {
+	border: 1px #999999 solid;
+	margin: 0 0 0 0;
+}
+
+fieldset legend {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 5px;
+}
+
+fieldset table.wpwhois {
+	margin: 0 0 0 0 !important;
+}
+
+table.wpwhois {
+	width: 100%;
+}
+
+table.wpwhois tbody tr td, table.wpwhois th {
+	padding: 4px !important;
+}
+
+table.wpwhois thead tr, table.wpwhois tbody tr.total {
+	background: #cccccc;
+	font-weight: bold;
+}
+
+table.wpwhois thead tr th, table.wpwhois tbody tr.total td {
+	background-color: #f2f2f2;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	padding: 4px;
+	font-weight: bold;
+}
+
+table.wpwhois thead tr th {
+	text-align: center;
+}
+
+table.wpwhois tr.arow {
+	background: #f1f1f1;
+}
+
+table.wpwhois tr.erow {
+	background: #fafafa;
+}
+
+table.wpwhois th.check-column {
+	text-align: center;
+}
+
+table.wpwhois td {
+	padding: 4px;
+	text-align: left;
+}
+
+table.wpwhois tr td {
+	padding: 2px;
+	margin: 0 0 0 0;
+	border: none;
+}
+
+div.wpwhoispaging {
+	margin: 15px 0;
+}
+
+div.wpwhoispaging .page-numbers {
+	border: 1px #999999 dotted;
+	padding: 4px;
+	margin: 0 3px 0 0;
+	text-decoration: none;
+}
+
+div.wpwhoispaging .current {
+	font-weight: bold;
+}
+
+div.wpwhoispaging .current, div.wpwhoispaging a.page-numbers:hover {
+	border: 1px #515151 solid;
+	text-decoration: none;
+}
+
+div.wpwhoissteps {
+	margin: 0 0 10px 0;
+	padding: 5px 0;
+	display: block;
+	clear: both;
+	border-bottom: 1px #999999 dotted;
+}
+
+div.wpwhoissteps ul {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+div.wpwhoissteps ul li {
+	float: left;
+	padding: 0 0 0 0;
+	margin: 0 8px 0 8px;
+	color: rgb(34, 68, 102);
+}
+
+div.wpwhoissteps ul li.active {
+	font-weight: bold;
+	color: rgb(213, 78, 33);
+}
+
+div.wpwhoissteps ul li span.number {
+	font-size: 22px;
+}
+
+.wpwhoiscleaner {
+	display: block;
+	clear: both !important;
+	width: 100%;
+	height: 1px;
+}

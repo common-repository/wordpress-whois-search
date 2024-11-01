@@ -1,0 +1,101 @@
+/*
+WordPress WHOIS Plugin CSS
+*/
+
+.swWrap {
+	margin: 15px 0;
+}
+
+/* <div> around all html output by the script */
+.swPositioner{
+	text-align: center;
+	width: 100%;
+}
+
+/* <div> around the whois lookup form */
+.swForm{
+	text-align: center;
+}
+
+/* <div> heading above the whois form */
+.swHeading{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/* <input> for entering the domain in */
+.swDomain{
+	width: 300px;
+	text-align: right;
+}
+
+/* <select> listing tlds */
+select.swtld{
+	width: auto !important;
+}
+
+/* <input type=\"submit\"> lookup form submit button */
+.swSubmit{
+	border: 1px solid black;
+	background-color: #6699cc;
+}
+
+/* security code <img> tag */
+.swSecureImage{
+	border: 1px solid black;
+}
+
+/* <input> for entering the security code */
+.swSecureCode{
+	width: 60px;
+}
+
+/* <div> containing instructions, etc */
+.swInfo{
+	font-size: 10px;
+	color: #aaaaaa;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+/* <div> containing all whois lookup results */
+.swResults{
+	text-align: center;
+}
+
+/* <div> containing the domain status message (available, registered) */
+.swStatus{
+	border-top: 2px dotted #cccccc;
+	padding: 5px;
+	text-align: center;
+	width: auto;
+	display: block;
+}
+
+/* <div> containing details of the whois server used for the lookup */
+.swServer{
+	border-top: 2px dotted #cccccc;
+	text-align: center;
+	padding: 10px;
+	color: #aaaaaa;
+}
+
+/* <div containing the data from the whois lookup */
+.swData{
+	padding: 4px;
+	color: #666666;
+}
+
+/* style for <span> around lines in the output to hilight. */
+.swHilight{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+/* <div> used to display error messages */
+.swError{
+	margin: 10px 0;
+	font-weight: bold;
+	color: red;
+}
